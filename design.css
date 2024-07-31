@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #629154;
+  background-image: url(../Assets/grass.png);
+  background-size: cover;
+}
+
+#seleccionar-mascota {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  color: white;
+  font-size: 75px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.subtitulo {
+  color: white;
+  font-size: 20px;
+}
+
+.tarjetas {
+  display: flex;
+  gap: 10px;
+}
+
+.tarjeta-de-pokemon {
+  width: 200px;
+  height: 100px;
+  background: #29442d;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.tarjeta-de-pokemon img {
+  width: 80px;
+}
+
+#boton-mascota {
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 30px;
+}
+
+input {
+  display: none;
+}
+
+#seleccionar-ataque {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boton-de-ataque {
+  background-color: #29442d;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border-color: transparent;
+  width: 180px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+#boton-reiniciar{
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 30px;
+
+}
+
+#vidas-jugador{
+
+  color:antiquewhite;
+}
+
+#vidas-enemigo{
+
+  color:antiquewhite;
+
+}
+
+#mascota-jugador{
+
+  color:antiquewhite;
+
+}
+
+#mascota-enemigo{
+
+  color:antiquewhite;
+
+}

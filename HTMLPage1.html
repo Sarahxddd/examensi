@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKEMON!</title>
+    <link rel="stylesheet" href="./css/design.css">
+    <script src="./js/Script1.js"></script>
+</head>
+<body>
+
+    <section id="seleccionar-mascota">
+        <h1 class="titulo">Pokemon</h1>
+        <h2 class="subtitulo">Elige tu Pokemon</h2>
+
+        <div class="tarjetas">
+            <label class="tarjeta-de-pokemon" for="Fennekin">
+                <p>Fennekin</p>
+                <img src="./assets/fennekkin.png" alt="Fennekin">
+            </label>
+            <input type="radio" name="mascota" id="Fennekin" />
+
+            <label class="tarjeta-de-pokemon" for="Chespin">
+                <p>Chespin</p>
+                <img src="./assets/chespinsi.png" alt="Chespin">
+            </label>
+            <input type="radio" name="mascota" id="Chespin">
+
+            <label class="tarjeta-de-pokemon" for="Froakie">
+                <p>Froakie</p>
+                <img src="./assets/froakieestesi.png" alt="Froakie">
+            </label>
+            <input type="radio" name="mascota" id="Froakie">
+
+        </div>
+
+        <button id="boton-mascota">Seleccionar</button>
+    </section>
+
+    <section id="seleccionar-ataque">
+        <h1 class="titulo">Pokemon</h1>
+        <h2 class="subtitulo">Elige tu ataque:</h2>
+
+        <div>
+            <button id="boton-fuego" class="boton-de-ataque">Fuego</button>
+            <button id="boton-agua" class="boton-de-ataque">Agua</button>
+            <button id="boton-tierra" class="boton-de-ataque">Tierra</button>
+        </div>
+
+        <div>
+            <section id="mensajes">
+            </section>
+            <section id="reiniciar">
+                <button id="boton-reiniciar">Reiniciar</button>
+            </section>
+        </div>
+
+        <div>
+            <p>Tu pokemon <span id="mascota-jugador"></span> tiene <span id="vidas-jugador">3</span> vidas</p>
+            <p>el pokemon <span id="mascota-enemigo"></span> del enemigo tiene <span id="vidas-enemigo">3</span> vidas</p>
+        </div>
+    </section>
+
+
+</body>
+</html>
